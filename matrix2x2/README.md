@@ -40,10 +40,8 @@ SPLDV dalam soal di atas dapat dinyatakan dalam bentuk matriks, yakni
 
 #
 
-#
-
 Berdasarkan Aturan Cramer, kita peroleh hasil berikut.
-
+!
 ![Alt text](image-6.png)
 
 Jadi, nilai x dan y yang memenuhi SPLDV di atas yaitu
