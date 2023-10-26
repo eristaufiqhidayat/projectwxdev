@@ -66,16 +66,4 @@ x = −2 dan y = 3
 .
 
 Praktek :
-1.Buatlah program menghitung determinan memakai wxdev dengan GUI.
-2.Buat project baru
-3.File->New->Project
-4.pilih wxWidgetFrame dengan nama Determinant
-5.Save di directory D:\kelas6_project\determinant
-
-6.Selanjutnya create
-
-7.Selanjutnya Buat Form seperti dibawah ini
-
-8.Selanjutnya Rubah Form Menjadi seperti ini
-
-9.Selanjutnya Compile dan Run Without Debugging (pastikan file exe terbentuk)
+1.Buatlah program menghitung determinan memakai wxdev
