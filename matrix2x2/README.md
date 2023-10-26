@@ -26,6 +26,8 @@ Dan untuk nilai y akan di peroleh seperti ini
 Contoh :
 
 Selesaikan sistem persamaan linear dua variabel (SPLDV) berikut dengan menggunakan Aturan Cramer.
+!!
+
 !
 ![Alt text](image-3.png)
 
