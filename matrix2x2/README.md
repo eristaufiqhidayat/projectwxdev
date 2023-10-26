@@ -13,28 +13,29 @@ Agar lebih jelas, kita akan menerapkan Aturan Cramer untuk menyelesaikan sistem 
 
 Dengan menggunakan rumus aturan cramer, nilai x akan di peroleh seperti ini
 
-!
+#
 
 ![Alt text](image-1.png)
 
 Dan untuk nilai y akan di peroleh seperti ini
 
-!
+#
 
 ![Alt text](image-2.png)
 
 Contoh :
 
 Selesaikan sistem persamaan linear dua variabel (SPLDV) berikut dengan menggunakan Aturan Cramer.
-!!
 
-!
+#
+
 ![Alt text](image-3.png)
 
 Pembahasan:
 
 SPLDV dalam soal di atas dapat dinyatakan dalam bentuk matriks, yakni
-!
+
+#
 
 ![Alt text](image-4.png)
 
@@ -43,7 +44,9 @@ SPLDV dalam soal di atas dapat dinyatakan dalam bentuk matriks, yakni
 #
 
 Berdasarkan Aturan Cramer, kita peroleh hasil berikut.
-!
+
+#
+
 ![Alt text](image-6.png)
 
 Jadi, nilai x dan y yang memenuhi SPLDV di atas yaitu
