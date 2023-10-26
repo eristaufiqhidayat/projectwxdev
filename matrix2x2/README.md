@@ -13,6 +13,8 @@ Agar lebih jelas, kita akan menerapkan Aturan Cramer untuk menyelesaikan sistem 
 
 Dengan menggunakan rumus aturan cramer, nilai x akan di peroleh seperti ini
 
+#
+
 ![Alt text](image-1.png)
 
 Dan untuk nilai y akan di peroleh seperti ini
