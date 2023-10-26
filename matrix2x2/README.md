@@ -9,7 +9,11 @@ Aturan Cramer digunakan untuk menyelesaikan sistem persamaan linear dengan n per
 
 Agar lebih jelas, kita akan menerapkan Aturan Cramer untuk menyelesaikan sistem persamaan linear dua variabel (SPLDV) dan sistem persamaan linear tiga variabel (SPLTV). Sekarang, perhatikanlah sistem persamaan linear dua variabel berikut.
 
+#
+
 ![Alt text](image.png)
+
+#
 
 Dengan menggunakan rumus aturan cramer, nilai x akan di peroleh seperti ini
 
@@ -17,11 +21,15 @@ Dengan menggunakan rumus aturan cramer, nilai x akan di peroleh seperti ini
 
 ![Alt text](image-1.png)
 
+#
+
 Dan untuk nilai y akan di peroleh seperti ini
 
 #
 
 ![Alt text](image-2.png)
+
+#
 
 Contoh :
 
@@ -30,6 +38,8 @@ Selesaikan sistem persamaan linear dua variabel (SPLDV) berikut dengan menggunak
 #
 
 ![Alt text](image-3.png)
+
+#
 
 Pembahasan:
 
@@ -48,6 +58,8 @@ Berdasarkan Aturan Cramer, kita peroleh hasil berikut.
 #
 
 ![Alt text](image-6.png)
+
+#
 
 Jadi, nilai x dan y yang memenuhi SPLDV di atas yaitu
 x = −2 dan y = 3
