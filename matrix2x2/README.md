@@ -31,6 +31,10 @@ SPLDV dalam soal di atas dapat dinyatakan dalam bentuk matriks, yakni
 
 ![Alt text](image-5.png)
 
+#
+
+#
+
 Berdasarkan Aturan Cramer, kita peroleh hasil berikut.
 
 ![Alt text](image-6.png)
