@@ -1,6 +1,6 @@
 Bahan Ajar : Materi Matriks*
 Kelas : 6*
-Pengajar : Eris Taufiq H, ST, MT\_
+Pengajar : Eris Taufiq H, ST, MT\*
 
 Penggunaan Matriks
 Ada beberapa cara untuk mencari solusi atau penyelesaian dari suatu sistem persamaan linear. Salah satu cara yang akan kita bahas di materi ini dikenal dengan Aturan Cramer atau Kaidah Cramer, diambil dari nama penemunya yakni Gabriel Cramer (1704–1752).
