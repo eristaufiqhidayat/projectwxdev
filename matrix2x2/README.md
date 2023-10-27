@@ -11,7 +11,7 @@ Agar lebih jelas, kita akan menerapkan Aturan Cramer untuk menyelesaikan sistem 
 
 #
 
-<img src='image.png' width='100'>
+<img src='image.png' width='150'>
 
 #
 
