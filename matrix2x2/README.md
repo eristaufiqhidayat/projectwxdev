@@ -15,15 +15,13 @@ Agar lebih jelas, kita akan menerapkan Aturan Cramer untuk menyelesaikan sistem 
 
 <img src='image.png' width='200'>
 
-![Alt text](image.png)
-
 #
 
 Dengan menggunakan rumus aturan cramer, nilai x akan di peroleh seperti ini
 
 #
 
-![Alt text](image-1.png)
+<img src='image-1.png' width='200'>
 
 #
 
@@ -31,7 +29,7 @@ Dan untuk nilai y akan di peroleh seperti ini
 
 #
 
-![Alt text](image-2.png)
+<img src='image-2.png' width='200'>
 
 #
 
@@ -41,7 +39,7 @@ Selesaikan sistem persamaan linear dua variabel (SPLDV) berikut dengan menggunak
 
 #
 
-![Alt text](image-3.png)
+<img src='image-3.png' width='200'>
 
 #
 
@@ -51,7 +49,7 @@ SPLDV dalam soal di atas dapat dinyatakan dalam bentuk matriks, yakni
 
 #
 
-![Alt text](image-5.png)
+<img src='image-5.png' width='200'>
 
 #
 
@@ -59,7 +57,7 @@ Berdasarkan Aturan Cramer, kita peroleh hasil berikut.
 
 #
 
-![Alt text](image-6.png)
+<img src='image-6.png' width='200'>
 
 #
 
