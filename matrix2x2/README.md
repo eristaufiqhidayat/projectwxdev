@@ -19,7 +19,7 @@ Dengan menggunakan rumus aturan cramer, nilai x akan di peroleh seperti ini
 
 #
 
-![Alt text](image-1.png)
+<img src='image-1.png' width='150'>
 
 #
 
