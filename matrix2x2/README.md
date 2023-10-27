@@ -11,7 +11,7 @@ Agar lebih jelas, kita akan menerapkan Aturan Cramer untuk menyelesaikan sistem 
 
 #
 
-![Alt text](image.png)
+![Alt text](image.png|width=300)
 
 #
 
