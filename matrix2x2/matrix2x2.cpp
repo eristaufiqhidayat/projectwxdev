@@ -30,11 +30,13 @@ int main()
     b2=2;
     c1=-13;
     c2=4;
+    
     dx = fdx(c1,c2,b1,b2);
     dy = fdy(c1,c2,a1,a2);
     d= fd(a1,a2,b1,b2);
     x = dx/d;
-    y = dy/d; 
+    y = dy/d;
+    
     cout <<"dx = "<<dx<<endl;
     cout <<"dy = "<<dy<<endl;
     cout <<"d = "<<d<<endl;
