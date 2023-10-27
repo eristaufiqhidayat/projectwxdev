@@ -49,7 +49,7 @@ SPLDV dalam soal di atas dapat dinyatakan dalam bentuk matriks, yakni
 
 #
 
-<img src='image-5.png' width='200'>
+<img src='image-5.png' width='400'>
 
 #
 
