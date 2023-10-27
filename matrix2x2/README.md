@@ -13,7 +13,7 @@ Agar lebih jelas, kita akan menerapkan Aturan Cramer untuk menyelesaikan sistem 
 
 #
 
-![Alt text](image.png)
+<img src="image.jpg" alt="" width="200">
 
 #
 
