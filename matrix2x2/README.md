@@ -11,7 +11,7 @@ Agar lebih jelas, kita akan menerapkan Aturan Cramer untuk menyelesaikan sistem 
 
 #
 
-<img src='image.png' width='150'>
+![Alt text](image.png)
 
 #
 
@@ -19,7 +19,7 @@ Dengan menggunakan rumus aturan cramer, nilai x akan di peroleh seperti ini
 
 #
 
-<img src='image-1.png' width='150'>
+![Alt text](image-1.png)
 
 #
 
@@ -46,8 +46,6 @@ Pembahasan:
 SPLDV dalam soal di atas dapat dinyatakan dalam bentuk matriks, yakni
 
 #
-
-![Alt text](image-4.png)
 
 ![Alt text](image-5.png)
 
