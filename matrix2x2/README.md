@@ -13,8 +13,6 @@ Agar lebih jelas, kita akan menerapkan Aturan Cramer untuk menyelesaikan sistem 
 
 #
 
-<img src="image.jpg" alt="" width="200">
-
 ![Alt text](image.png)
 
 #
