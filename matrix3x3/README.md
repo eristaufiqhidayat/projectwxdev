@@ -1,3 +1,9 @@
+## Bahan Ajar : Materi Matriks
+
+## Kelas : 6
+
+## Pengajar : Eris Taufiq H, ST, MT
+
 ### Penyelesaian Persamaan Linear Tiga Variabel dengan Determinan Matriks
 
 Dalam hal ini, determinan ditentukan dengan metode Sarrus. Untuk menyelesaikan cara yang terakhir, langkah-langkah penyelesaiannya bisa disimak lewat contoh soal berikut ini.
