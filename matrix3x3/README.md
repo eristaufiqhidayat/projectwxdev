@@ -37,7 +37,7 @@ Matriks D Dx Dy Dz
 
 Determinan D dan Dx
 
-<img src="https://www.belajarmtk.com/wp-content/uploads/2021/05/Determinan-D-dan-Dx-768x593.jpg">
+<img src="https://www.belajarmtk.com/wp-content/uploads/2021/05/Determinan-D-dan-Dx-768x593.jpg" width=300>
 
 Determinan D dan Dx
 
