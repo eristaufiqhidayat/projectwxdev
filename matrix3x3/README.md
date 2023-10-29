@@ -22,25 +22,29 @@ Ubah Menjadi Matriks 3x3
 
 2 . Tentukan matriks D, Dx, Dy, dan Dz, yaitu:
 
-Matriks D: elemennya terdiri dari koefisien semua variabel dalam persamaan.
-Matirks Dx: elemen kolom pertama adalah konstanta persamaan, kolom kedua koefisien y, dan kolom ketiga koefisien z.
-Matirks Dy: elemen kolom pertama adalah koefisien x, kolom kedua konstanta persamaan, dan kolom ketiga koefisien z.
-Matirks Dz: elemen kolom pertama adalah koefisien x, kolom kedua koefisien y, dan kolom ketiga konstanta persamaan.
+- Matriks D: elemennya terdiri dari koefisien semua variabel dalam persamaan.
+- Matirks Dx: elemen kolom pertama adalah konstanta persamaan, kolom kedua koefisien y, dan kolom ketiga koefisien z.
+- Matirks Dy: elemen kolom pertama adalah koefisien x, kolom kedua konstanta persamaan, dan kolom ketiga koefisien z.
+- Matirks Dz: elemen kolom pertama adalah koefisien x, kolom kedua koefisien y, dan kolom ketiga konstanta persamaan.
+
 Hasilnya adalah sebagai berikut.
 
-Matriks D Dx Dy Dz
+<img src="https://www.belajarmtk.com/wp-content/uploads/2021/05/Matriks-D-Dx-Dy-Dz-300x161.jpg">
+
 Matriks D Dx Dy Dz
 
 3 . Tentukan determinan matriks D, Dx, Dy, dan Dz.
 
 Determinan D dan Dx
 
-Determinan D dan Dx
+<img src="https://www.belajarmtk.com/wp-content/uploads/2021/05/Determinan-D-dan-Dx-768x593.jpg">
+
 Determinan D dan Dx
 
 Determinan Dy dan Dz
 
-Determinan Dy dan Dz
+<img src="https://www.belajarmtk.com/wp-content/uploads/2021/05/Determinan-Dy-dan-Dz-300x223.jpg">
+
 Determinan Dy dan Dz
 
 4 . Tentukan nilai x, y, dan z
