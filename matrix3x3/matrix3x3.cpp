@@ -3,10 +3,10 @@
 
 using namespace std;
 
-int fdx(int c1, int c2, int b1,int b2)
+int fdx(int c1, int c2,int c3, int b1,int b2,int b3,int d1,int d2,int d3)
 {
     int dx;
-    dx = (c1*b2)-(b1*c2);
+    dx = (d1*b2*c3)+(b1*c2*c3)+(c1*d2*b3)-(c1*b2*d3)-(b1*d2*c3);
     return dx;
 }
 int fdy(int c1, int c2, int a1,int a2)
@@ -42,13 +42,19 @@ int main()
     cout <<"Masukan Nilai c2 = "<<endl;
     cin >> c2;
     cout <<"Masukan Nilai c3 = "<<endl;
-    cin >> c3;
-    //dx = fdx(c1,c2,b1,b2);
+    cin >> d1;
+        cout <<"Masukan Nilai d1 = "<<endl;
+    cin >> d1;
+        cout <<"Masukan Nilai d2 = "<<endl;
+    cin >> d2;
+        cout <<"Masukan Nilai d3 = "<<endl;
+    cin >> d3;
+    dx = fdx(c1,c2,c3,b1,b2,b3,d1,d2,d3);
     //dy = fdy(c1,c2,a1,a2);
     d= fd(a1,a2,a3,b1,b2,b3,c1,c2,c3);
     //x = dx/d;
     //y = dy/d;
-    //cout <<"dx = "<<dx<<endl;
+    cout <<"dx = "<<dx<<endl;
     //cout <<"dy = "<<dy<<endl;
     cout <<"d = "<<d<<endl;
     //cout <<"x = "<<x<<endl;
