@@ -5,7 +5,7 @@ object frmNewForm: TfrmNewForm
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'ProjectMySQLForm'
   ClientHeight = 389
-  ClientWidth = 397
+  ClientWidth = 994
   Color = clAppWorkSpace
   OldCreateOrder = True
   PopupMenu = DesignerPopup.Owner
@@ -33,8 +33,8 @@ object frmNewForm: TfrmNewForm
   PixelsPerInch = 96
   TextHeight = 15
   object WxButton1: TWxButton
-    Left = 156
-    Top = 293
+    Left = 207
+    Top = 280
     Width = 75
     Height = 25
     Caption = 'WxButton1'
@@ -71,11 +71,24 @@ object frmNewForm: TfrmNewForm
     Wx_Floating_Y_Pos = 0
   end
   object WxListCtrl1: TWxListCtrl
-    Left = 25
-    Top = 21
-    Width = 336
+    Left = 21
+    Top = 18
+    Width = 921
     Height = 150
-    Columns = <>
+    Color = clAqua
+    Columns = <
+      item
+        Caption = 'No'
+        Width = 29
+      end
+      item
+        Caption = 'Nama'
+        Width = 300
+      end
+      item
+        Caption = 'Password'
+        Width = 100
+      end>
     TabOrder = 1
     ViewStyle = vsReport
     EVT_LIST_ITEM_SELECTED = 'WxListCtrl1Selected'
@@ -86,8 +99,10 @@ object frmNewForm: TfrmNewForm
     Wx_GeneralStyle = []
     Wx_IDName = 'ID_WXLISTCTRL1'
     Wx_IDValue = 1003
-    Wx_ListviewStyle = []
+    Wx_ListviewStyle = [wxLC_ALIGN_LEFT]
     Wx_ListviewView = wxLC_REPORT
+    Wx_BorderAlignment = [wxTOP, wxLEFT, wxRIGHT, wxBOTTOM, wxALL]
+    InvisibleBGColorString = 'STD:CYAN'
     Wx_PaneCaption = 'WxListCtrl1'
     Wx_PaneName = 'WxListCtrl1_Pane'
     Wx_Aui_Dock_Direction = wxAUI_DOCK_NONE
@@ -106,8 +121,8 @@ object frmNewForm: TfrmNewForm
     Wx_Floating_Y_Pos = 0
   end
   object WxEdit1: TWxEdit
-    Left = 116
-    Top = 202
+    Left = 122
+    Top = 181
     Width = 121
     Height = 19
     BevelInner = bvNone

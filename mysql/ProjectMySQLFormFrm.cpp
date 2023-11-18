@@ -62,15 +62,19 @@ void ProjectMySQLFormFrm::CreateGUIControls()
 	//Add the custom code before or after the blocks
 	////GUI Items Creation Start
 
-	WxEdit1 = new wxTextCtrl(this, ID_WXEDIT1, _("WxEdit1"), wxPoint(116, 202), wxSize(121, 19), 0, wxDefaultValidator, _("WxEdit1"));
+	WxEdit1 = new wxTextCtrl(this, ID_WXEDIT1, _("WxEdit1"), wxPoint(122, 181), wxSize(121, 19), 0, wxDefaultValidator, _("WxEdit1"));
 
-	WxListCtrl1 = new wxListCtrl(this, ID_WXLISTCTRL1, wxPoint(25, 21), wxSize(336, 150), wxLC_REPORT, wxDefaultValidator, _("WxListCtrl1"));
+	WxListCtrl1 = new wxListCtrl(this, ID_WXLISTCTRL1, wxPoint(21, 18), wxSize(921, 150), wxLC_REPORT | wxLC_ALIGN_LEFT, wxDefaultValidator, _("WxListCtrl1"));
+	WxListCtrl1->InsertColumn(0, _("No"), wxLIST_FORMAT_LEFT, 29);
+	WxListCtrl1->InsertColumn(1, _("Nama"), wxLIST_FORMAT_LEFT, 300);
+	WxListCtrl1->InsertColumn(2, _("Password"), wxLIST_FORMAT_LEFT, 100);
+	WxListCtrl1->SetBackgroundColour(wxColour(_("CYAN")));
 
-	WxButton1 = new wxButton(this, ID_WXBUTTON1, _("WxButton1"), wxPoint(156, 293), wxSize(75, 25), 0, wxDefaultValidator, _("WxButton1"));
+	WxButton1 = new wxButton(this, ID_WXBUTTON1, _("WxButton1"), wxPoint(207, 280), wxSize(75, 25), 0, wxDefaultValidator, _("WxButton1"));
 
 	SetTitle(_("ProjectMySQLForm"));
 	SetIcon(wxNullIcon);
-	SetSize(8,8,413,428);
+	SetSize(8,8,1010,428);
 	Center();
 	
 	////GUI Items Creation End
@@ -86,16 +90,17 @@ void ProjectMySQLFormFrm::OnClose(wxCloseEvent& event)
  */
 void ProjectMySQLFormFrm::WxButton1Click(wxCommandEvent& event)
 {
-	    WxListCtrl1->InsertColumn(0,wxT("NAMA"),wxLIST_FORMAT_LEFT,75);
-	    WxListCtrl1->InsertColumn(1,wxT("NAMA"),wxLIST_FORMAT_LEFT,75);
+	    //WxListCtrl1->InsertColumn(0,wxT("No"),wxLIST_FORMAT_LEFT,30);
+	    //WxListCtrl1->InsertColumn(1,wxT("NAMA"),wxLIST_FORMAT_LEFT,200);
         obj = mysql_init(0);
         conection = mysql_real_connect(obj,HOST,USER,PASS,DB,3306,NULL,0);
-        mysql_query(obj,"select * from pengguna");
+        mysql_query(obj,"select * from pengguna order by id desc");
         result = mysql_use_result(obj);
         while(row = mysql_fetch_row(result)){
            //cout <<row<<endl; 
            WxListCtrl1->InsertItem(0,row[0]);
            WxListCtrl1->SetItem(0,1,row[1]);
+           WxListCtrl1->SetItem(0,2,row[3]);
         }
         mysql_close(obj);
 }
