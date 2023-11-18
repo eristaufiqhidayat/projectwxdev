@@ -2,7 +2,6 @@
 #include <iostream>
 #include <mysql.h>
 #include <mysqld_error.h>
-
 using namespace std;
 
 char HOST[]="localhost";
@@ -12,6 +11,7 @@ char DB[]="kasir";
 MYSQL *obj;
 MYSQL *conection;
 MYSQL_RES *result;
+MYSQL_DATA data;
 MYSQL_ROW row;
 
 using namespace std;
@@ -34,7 +34,7 @@ void selectdata(){
         mysql_query(obj,"select * from pengguna");
         result = mysql_use_result(obj);
         while(row = mysql_fetch_row(result)){
-           cout <<row[2]<<endl;   
+           cout <<row<<endl; 
         }
         mysql_close(obj);
     }
