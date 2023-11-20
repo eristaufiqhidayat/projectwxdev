@@ -26,6 +26,7 @@
 //Header Include Start and Header Include End.
 //wxDev-C++ designer will remove them. Add custom headers after the block.
 ////Header Include Start
+#include <wx/tglbtn.h>
 #include <wx/textctrl.h>
 #include <wx/listctrl.h>
 #include <wx/button.h>
@@ -47,12 +48,22 @@ class ProjectMySQLFormFrm : public wxFrame
 		void WxButton1Click(wxCommandEvent& event);
 		void ProjectMySQLFormFrmActivate(wxActivateEvent& event);
 		void WxListCtrl1Selected(wxListEvent& event);
+		void WxToggleButton1Click(wxCommandEvent& event);
+		void WxButton2Click(wxCommandEvent& event);
+		void WxButton3Click(wxCommandEvent& event);
+		void WxButton4Click(wxCommandEvent& event);
 		
 	private:
 		//Do not add custom control declarations between
 		//GUI Control Declaration Start and GUI Control Declaration End.
 		//wxDev-C++ will remove them. Add custom code after the block.
 		////GUI Control Declaration Start
+		wxButton *WxButton4;
+		wxButton *WxButton3;
+		wxTextCtrl *WxEdit3;
+		wxButton *WxButton2;
+		wxTextCtrl *WxEdit2;
+		wxToggleButton *WxToggleButton1;
 		wxTextCtrl *WxEdit1;
 		wxListCtrl *WxListCtrl1;
 		wxButton *WxButton1;
@@ -66,6 +77,12 @@ class ProjectMySQLFormFrm : public wxFrame
 		enum
 		{
 			////GUI Enum Control ID Start
+			ID_WXBUTTON4 = 1013,
+			ID_WXBUTTON3 = 1012,
+			ID_WXEDIT3 = 1011,
+			ID_WXBUTTON2 = 1010,
+			ID_WXEDIT2 = 1009,
+			ID_WXTOGGLEBUTTON1 = 1008,
 			ID_WXEDIT1 = 1004,
 			ID_WXLISTCTRL1 = 1003,
 			ID_WXBUTTON1 = 1001,
@@ -76,6 +93,7 @@ class ProjectMySQLFormFrm : public wxFrame
 	private:
 		void OnClose(wxCloseEvent& event);
 		void CreateGUIControls();
+		void ListGrid();
 };
 
 #endif

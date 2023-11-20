@@ -29,3 +29,4 @@ int ProjectMySQLFormFrmApp::OnExit()
 {
 	return 0;
 }
+

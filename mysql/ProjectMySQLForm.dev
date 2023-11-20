@@ -1,7 +1,7 @@
 [Project]
 FileName=ProjectMySQLForm.dev
 Name=ProjectMySQLForm
-UnitCount=7
+UnitCount=6
 PchHead=-1
 PchSource=-1
 Ver=3
@@ -86,7 +86,7 @@ ProductName=
 ProductVersion=
 AutoIncBuildNrOnRebuild=0
 AutoIncBuildNrOnCompile=0
-UnitCount=6
+UnitCount=9
 
 [Profile1]
 ProfileName=MingW gcc
@@ -143,4 +143,33 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=9
 CompilerType=9
+
+[Unit7]
+FileName=Untitled1Frm.h
+CompileCpp=1
+Folder=ProjectMySQLForm
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit8]
+FileName=Untitled1Frm.cpp
+CompileCpp=1
+Folder=ProjectMySQLForm
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit9]
+FileName=Untitled1Frm.wxform
+Folder=ProjectMySQLForm
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
 
