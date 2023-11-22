@@ -1,22 +1,22 @@
-# Project: ProjectMySQLForm
+# Project: MySqlBasic
 # Compiler: Default GCC compiler
 # Compiler Type: MingW 3
-# Makefile created by wxDev-C++ IDE 7.4.2.569 on 20/11/23 08:21
+# Makefile created by wxDev-C++ IDE 7.4.2.569 on 22/11/23 06:01
 
 WXLIBNAME = wxmsw29u
 CPP       = g++.exe
 CC        = gcc.exe
 WINDRES   = "windres.exe"
-OBJ       = Objects/MingW/ProjectMySQLFormApp.o Objects/MingW/ProjectMySQLFormFrm.o Objects/MingW/Untitled1Frm.o Objects/MingW/ProjectMySQLForm_private.res
-LINKOBJ   = "Objects/MingW/ProjectMySQLFormApp.o" "Objects/MingW/ProjectMySQLFormFrm.o" "Objects/MingW/Untitled1Frm.o" Objects/MingW/ProjectMySQLForm_private.res
-LIBS      = -L"C:/Program Files (x86)/Dev-Cpp/lib/wx/gcc_lib" -L"C:/Program Files (x86)/Dev-Cpp/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -mwindows -l$(WXLIBNAME) -l$(WXLIBNAME)_gl -lwxscintilla -lwxtiff -lwxjpeg -lwxpng -lwxzlib -lwxregexu -lwxexpat -lkernel32 -luser32 -lgdi32 -lcomdlg32 -lwinspool -lwinmm -lshell32 -lcomctl32 -lole32 -loleaut32 -luuid -lrpcrt4 -ladvapi32 -lwsock32 -lodbc32 -lopengl32 -lmysql  -g3 
+OBJ       = Objects/MingW/MySQLBasic.o
+LINKOBJ   = "Objects/MingW/MySQLBasic.o"
+LIBS      = -L"C:/Program Files (x86)/Dev-Cpp/lib/wx/gcc_lib" -L"C:/Program Files (x86)/Dev-Cpp/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -lmysql  
 INCS      = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include" -I"D:/projectwxdev/mysql/mysql_lib/include"
 CXXINCS   = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include" -I"C:/Program Files (x86)/Dev-Cpp/" -I"C:/Program Files (x86)/Dev-Cpp/include/common" -I"D:/projectwxdev/mysql/mysql_lib/include"
 RCINCS    = --include-dir "C:/PROGRA~2/Dev-Cpp/include/common"
-BIN       = Output/MingW/ProjectMySQLForm.exe
-DEFINES   = -D__WXMSW__ -D__GNUWIN32__ -D_UNICODE
-CXXFLAGS  = $(CXXINCS) $(DEFINES)   -g3
-CFLAGS    = $(INCS) $(DEFINES)   -g3
+BIN       = Output/MingW/MySqlBasic.exe
+DEFINES   = 
+CXXFLAGS  = $(CXXINCS) $(DEFINES)  
+CFLAGS    = $(INCS) $(DEFINES)  
 GPROF     = gprof.exe
 ifeq ($(OS),Windows_NT)
    RM = del /Q
@@ -36,14 +36,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(LINK) $(LINKOBJ) -o "$(BIN)" $(LIBS) 
 
-Objects/MingW/ProjectMySQLFormApp.o: $(GLOBALDEPS) ProjectMySQLFormApp.cpp ProjectMySQLFormApp.h ProjectMySQLFormFrm.h
-	$(CPP) -c ProjectMySQLFormApp.cpp -o Objects/MingW/ProjectMySQLFormApp.o $(CXXFLAGS)
-
-Objects/MingW/ProjectMySQLFormFrm.o: $(GLOBALDEPS) ProjectMySQLFormFrm.cpp ProjectMySQLFormFrm.h Untitled1Frm.h
-	$(CPP) -c ProjectMySQLFormFrm.cpp -o Objects/MingW/ProjectMySQLFormFrm.o $(CXXFLAGS)
-
-Objects/MingW/Untitled1Frm.o: $(GLOBALDEPS) Untitled1Frm.cpp Untitled1Frm.h
-	$(CPP) -c Untitled1Frm.cpp -o Objects/MingW/Untitled1Frm.o $(CXXFLAGS)
-
-Objects/MingW/ProjectMySQLForm_private.res: Objects/MingW/ProjectMySQLForm_private.rc ProjectMySQLFormApp.rc 
-	$(WINDRES) --input-format=rc -o Objects/MingW/ProjectMySQLForm_private.res $(RCINCS) Objects/MingW/PROJEC~1.RC -O coff
+Objects/MingW/MySQLBasic.o: $(GLOBALDEPS) MySQLBasic.cpp
+	$(CPP) -c MySQLBasic.cpp -o Objects/MingW/MySQLBasic.o $(CXXFLAGS)

@@ -34,7 +34,7 @@ void selectdata(){
         mysql_query(obj,"select * from pengguna");
         result = mysql_use_result(obj);
         while(row = mysql_fetch_row(result)){
-           cout <<row<<endl; 
+           cout <<row[1]<<endl; 
         }
         mysql_close(obj);
     }
