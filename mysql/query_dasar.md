@@ -1,24 +1,3 @@
-<div class="row">
-<div class="col-md-12 cols">
-<pre class="line-numbers code-dark"><code class="language-sql">create database detik;
-show databases;
-+--------------------+
-| Database           |
-+--------------------+
-| detik              |
-+--------------------+
-6 rows in set (0.00 sec)</code></pre>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12 cols">
-</div>
-</div>
-</form>
-</div>
-</header>
-<div class="side_daftar_isi hidden"></div>
-
 <main class="main-content">
 <section class="section" id="bg-aliceblue">
 
